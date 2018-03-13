@@ -9,7 +9,7 @@ class Post
     if @author.to_s == ""
       return nil
     else
-      return @author
+      return @author.name
     end
   end
 end
