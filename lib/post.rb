@@ -6,6 +6,10 @@ class Post
   end
   
   def author_name
-    
+    if @title.to_s == ""
+      return nil
+    else
+      return @title
+    end
   end
 end
