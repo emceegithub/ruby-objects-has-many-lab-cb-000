@@ -12,5 +12,4 @@ class Song
       return @artist
     end
   end
-
 end
