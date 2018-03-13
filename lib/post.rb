@@ -5,8 +5,6 @@ class Post
     @title = title
   end
   
-  def title
-    return @title
-  end
+
   
 end
