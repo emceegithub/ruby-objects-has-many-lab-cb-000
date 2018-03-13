@@ -9,7 +9,7 @@ class Song
     if @artist == ""
       return nil
     else
-      return @artist
+      return @artist.name
     end
   end
 end
